@@ -17,27 +17,61 @@
         <ul>
             <li><a href="index.html">Blog</a></li>
             <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 
-    <section>
+    <section id="blog">
         <h2>Blog Posts</h2>
-        <article>
-            <h3>Succulent Plant</h3>
-            <p>By Megan Cheng | <time datetime="2022-10-10">October 10, 2022</time></p>
+        <article class="blog-post">
+            <h3>Succulent Plant</h3>    
+            <address class="author">Megan Cheng</address>
+            <time datetime="2022-10-10">October 10, 2022</time>
+            <table>
+                <tr>
+                    <th>Date Observed</th>
+                    <th>Dying Leaf Count</th>
+                    <th>Comment</th>
+                </tr>
+                <tr>
+                    <td>Oct 10</td>
+                    <td>3</td>
+                    <td>Mybe try to water it less?</td>
+                </tr>
+                <tr>
+                    <td>Oct 20</td>
+                    <td>4</td>
+                    <td>The leaves dying are the ones on the bottom.</td>
+                </tr>
+                <tr>
+                    <td>Oct 23</td>
+                    <td>4</td>
+                    <td>Not much change from 3 days ago.</td>
+                </tr>
 
+            </table>            
             <p><img src="plant.jpg" alt="A dying succulent plant"></p>
             <p>This is a succulent I bought in the beginning of the semester. For some reason the leaves are dying already... I don't know if it's because I'm overwatering or underwatering it but I don't think it's going to last until summer.</p>
         </article>
-        <hr>
-        <article>
+
+        <article class="blog-post">
             <h3>Mint Chocolate Chip</h3>
-            <p>By Megan Cheng | <time datetime="2022-10-10">October 10, 2022</time></p>
+            <address class="author">Megan Cheng</address>
+            <time datetime="2022-10-10">October 10, 2022</time>
 
             <p><img src="mintic.jpg" alt="Mint Chocolate chip ice cream"></p>
             <p>I don't understand why so many people have a burning hatred for mint chocolate chip ice cream. I think it tastes pretty good. It doesn't taste like toothpaste to me. What brand of toothpaste do all these people use? </p>
-        </article>
 
+        </article>
+    </section>
+
+    <section>
+        <form>
+            <label>Sign up for our newsletter:
+                <input type="text">
+            </label>
+            <button>Subscribe</button>
+        </form>
     </section>
 
 </body>

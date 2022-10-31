@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <meta name="author" content="Megan Cheng">
     <title>Megan's Blog</title>
 </head>
@@ -14,21 +15,22 @@
         </header>
     
         <nav>
-            <ul>
-                <li><a href="index.html">Blog</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+            <ul class="nav-bar">
+                <li class="nav-item"><a href="index.html">Blog</a></li>
+                <li class="nav-item"><a href="about.html">About</a></li>
+                <li class="nav-item"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     
+    
         <section>
             <h2>Contact Form</h2>
-            <form>
-                <div class>
+            <form class="contact">
+                <div>
                     <label for="name">Enter your name: </label>
                     <input type="text" name="name" id="name" required>
                 </div>
-                <div class>
+                <div>
                     <label for="email">Enter your email: </label>
                     <input type="email" name="email" id="email" required>
                 </div>
@@ -41,17 +43,19 @@
                         <option value="interview">interested in an interview</option>
                     </select>
                 </div>
-                <div class>
+
+                <div>
                     <label for="comment">Open Comment:</label>
-                    <textarea
-                    name="textarea"
-                    id="comment"
-                    rows="5"
-                    cols="30"
-                    placeholder="Comment text."></textarea>
                 </div>
-                <div class>
-                  <input type="submit" value="Submit">
+                <textarea
+                name="textarea"
+                id="comment"
+                rows="5"
+                cols="30"
+                placeholder="Comment text."></textarea>
+                
+                <div>
+                    <input type="submit" value="Submit">
                 </div>
               </form>
         </section>

@@ -42,6 +42,7 @@ ul {
     background-color: #333;
 }
 
+
 .nav-item {
     float: left;
 }
@@ -71,7 +72,6 @@ table, th, td {
     padding: 4px;
 }
 
-ul[class]{
-    font-size: .8em;
-
+li[class~="interest"]{
+    font-style: italic;
 }

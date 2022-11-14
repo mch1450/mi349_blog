@@ -12,6 +12,10 @@ body{
     background: #fff;
 }
 
+img{
+    width:100%;
+}
+
 h1{
     font-size: 3em;
     margin: 0;
@@ -95,5 +99,30 @@ nav{
     width: 200px;
     margin: 0 10px 0px 0px;
     text-align: center;
-  }
+}
 
+/* @media (max-width: 400px){
+
+} */
+
+@media screen and (max-width: 400px) {
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 110px;
+      }
+      
+    li a {
+        display: block;
+    }
+
+    p{
+        width: 250px;
+    }
+
+    #blog{
+        flex-direction: column;
+    }
+  }
